@@ -26,7 +26,7 @@ export default (): WebPack.Configuration => ({
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: './src/index.html',
+            template: resolve('src', 'index.html'),
         }),
     ],
 });
