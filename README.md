@@ -1,4 +1,4 @@
-# JSX From Scratch
+# TSX From Scratch
 
 This is the [tutorial](https://medium.com/@kevinegstorf/react-with-typescript-from-scratch-3c6493900244) I have followed. These videos are pretty useful too.
 
