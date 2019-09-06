@@ -49,7 +49,6 @@ In this case, the only plugin will be the __HtmlWebPackPlugin__. This plugin wil
 
 In this file we are going to configure the properties for the TypeScript compiler. The ones we are going to use are:
 
-* __outDir:__ Here we set the output directory for the compiler. This will be the same as the WebPack output directory.
 * __noImplicitAny:__ Raises error on expressions and declarations with an implied any type.
 * __target:__ The JavaScript version we a re going to transpile the typeScript code. In this case, we are setting __ES5__ because is the version accepted for most of the browsers nowadays.
 * __jsx:__ Allows us to use JSX.
