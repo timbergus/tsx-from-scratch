@@ -1,6 +1,6 @@
 # First React + TypeScript App
 
-This is the [tutorial](https://medium.com/@kevinegstorf/react-with-typescript-from-scratch-3c6493900244) I have followed.
+This is the [tutorial](https://medium.com/@kevinegstorf/react-with-typescript-from-scratch-3c6493900244) I have followed. This [video](https://www.youtube.com/watch?v=Z5iWr6Srsj8&t=827s) is pretty helpful too.
 
 ## Introduction
 
