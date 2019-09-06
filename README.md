@@ -1,6 +1,9 @@
-# First React + TypeScript App
+# JSX From Scratch
 
-This is the [tutorial](https://medium.com/@kevinegstorf/react-with-typescript-from-scratch-3c6493900244) I have followed. This [video](https://www.youtube.com/watch?v=Z5iWr6Srsj8&t=827s) is pretty helpful too.
+This is the [tutorial](https://medium.com/@kevinegstorf/react-with-typescript-from-scratch-3c6493900244) I have followed. These videos are pretty useful too.
+
+* [React Typescript Tutorial](https://www.youtube.com/watch?v=Z5iWr6Srsj8&t=827s)
+* [Typescript Generics Tutorial](https://www.youtube.com/watch?v=nViEqpgwxHE)
 
 ## Introduction
 
@@ -46,11 +49,13 @@ In this case, the only plugin will be the __HtmlWebPackPlugin__. This plugin wil
 
 In this file we are going to configure the properties for the TypeScript compiler. The ones we are going to use are:
 
-* __outDir:__ here we set the output directory for the compiler. This will be the same as the WebPack output directory.
-* __noImplicitAny:__
-* __target:__ the JavaScript version we a re going to transpile the typeScript code. In this case, we are setting __ES5__ because is the version accepted for most of the browsers nowadays.
-* __jsx:__
-* __esModuleInterop:__ this is needed to allow TypeScript to use the import system used by ECMAScript, and stop using the `import * as T from 't';` used for the namespaces.
+* __outDir:__ Here we set the output directory for the compiler. This will be the same as the WebPack output directory.
+* __noImplicitAny:__ Raises error on expressions and declarations with an implied any type.
+* __target:__ The JavaScript version we a re going to transpile the typeScript code. In this case, we are setting __ES5__ because is the version accepted for most of the browsers nowadays.
+* __jsx:__ Allows us to use JSX.
+* __esModuleInterop:__ Allows TypeScript to use the import system used by ECMAScript, and let us stop using the `import * as T from 't';` used for the namespaces.
+
+Check [compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) for more info.
 
 ### Add the Scripts to the `package.json`
 
